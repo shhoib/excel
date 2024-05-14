@@ -82,15 +82,15 @@ const Footer = () => {
                 <h6>2047 Cyrus Viaduct <br/>East Jadynchester</h6>
             </div>
             <div className="flex text-cyan-500 ml-5 gap-4">
-             <FaFacebook className="text-l"/>
-             <FaLinkedin className="text-l"/>
+             <FaFacebook className="text-xl"/>
+             <FaLinkedin className="text-xl"/>
             </div>
             <h6 className="mt-9 text-[13px]">© 2024 Excel Precast Solutions Pvt. Ltd.</h6>
         </div>
 
         <div className="flex gap-9">
            <div>
-             <h1 className="text-2xl font-extralight mb-4">Quick Links</h1>
+             <h1 className="text-2xl font-extralight mb-6">Quick Links</h1>
              <div>
                 {
                   linksData.map((data)=>{
